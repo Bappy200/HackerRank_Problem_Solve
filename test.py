@@ -26,3 +26,5 @@ text = ['Python']
 # join elements of text with space
 text.append(12)
 print(text)
+
+print(6//2)
