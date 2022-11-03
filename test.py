@@ -28,3 +28,9 @@ text.append(12)
 print(text)
 
 print(6//2)
+
+p = [5, 2, 1, 3, 4]
+first_index = p.index(1)+1
+print(first_index, p[first_index-1])
+secend_index = p.index(first_index)+1
+print(secend_index, p[secend_index-1])
